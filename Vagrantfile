@@ -40,5 +40,6 @@ Vagrant.configure("2") do |config|
 		rm -rf 2102_constructive
 		rm -rf 2102_constructive.zip
 		systemctl restart httpd
+	SHELL
   end
 end
